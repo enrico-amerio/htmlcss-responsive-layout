@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+li{
+  list-style: none;
+}
+/* UTILITY */
+.d-flex{
+  display: flex;
+}
+/* HEADER */
+header{
+  background-color: blue;
+  color: white;
+  height: 75px;
+}
+.top{
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+
+}
+.nav{
+  display: none;
+}
+
+
+
+@media screen and (min-width:1920px) {
+  .nav-icon{
+    display: none;
+  }
+  .nav{
+    display: flex;
+  }
+  
+}
