@@ -6,6 +6,12 @@
 .container{
   width: 85%;
   margin: 0 auto;
+  max-width: 1400px;
+}
+.container-small{
+  width:70%;
+  margin: 0 auto;
+  max-width: 1153px;
 }
 li{
   list-style: none;
@@ -26,6 +32,9 @@ li{
 }
 .purple{
   background-color: blueviolet;
+}
+.black{
+  background-color: black;
 }
 /* HEADER */
 header{
@@ -104,6 +113,16 @@ header{
   height: 435px;
   margin-bottom: 80px;
 }
+/* FOOTER */
+.footer-top{
+height: 490px;
+margin: 65px 0px;
+}
+.footer-bottom{
+  height:160px;
+  margin: 40px 0px;
+}
+
 @media screen and (min-width:768px){
   .demo, .benefits, .about-us{
     flex-direction: row;
