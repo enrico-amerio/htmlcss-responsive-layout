@@ -14,8 +14,18 @@ li{
   text-align: center;
 }
 /* UTILITY */
+.debug{
+  background-color: green;
+  border: 1px solid black;
+}
 .d-flex{
   display: flex;
+}
+.column{
+  flex-direction: column;
+}
+.purple{
+  background-color: blueviolet;
 }
 /* HEADER */
 header{
@@ -46,8 +56,16 @@ header{
 .demo .card:last-child{
   margin-bottom:80px ;
 }
-.demo{
-  flex-direction: column;
+/* STRATEGIC PLANNING */
+.col{
+  height:620px;
+}
+.col.left{
+  margin-top:70px;
+  margin-bottom: 35px;
+}
+.col.right{
+  margin-bottom:70px;
 }
 
 @media screen and (min-width:768px){
@@ -67,6 +85,7 @@ header{
     height: 565px;
 
   }
+  
 }
 @media screen and (min-width:1200px) {
   .nav-icon{
@@ -78,5 +97,22 @@ header{
   .demo .card, .demo .card:nth-child(-n + 2){
     
     height: 345px;
+  }
+  .strategic{
+    flex-direction: row;
+    padding-bottom: 70px;
+    width: 70%;
+  }
+  .col{
+    width:50%;
+  }
+  .col.left{
+    margin: 130px 60px 0 0;
+    height: 720px;
+  }
+  .col.right{
+    height:550px;
+    margin-top:300px
+    
   }
 }
