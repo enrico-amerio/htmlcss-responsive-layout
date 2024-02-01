@@ -95,8 +95,17 @@ header{
   margin-bottom: 60px;
 
 }
+/* ABOUT US */
+.about-us-left{
+  height:950px;
+  margin:90px 0 60px 0;
+}
+.about-us-right{
+  height: 435px;
+  margin-bottom: 80px;
+}
 @media screen and (min-width:768px){
-  .demo, .benefits{
+  .demo, .benefits, .about-us{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -113,9 +122,15 @@ header{
 
   }
 
-  .benefits .card{
+  .benefits .card, .about-us-left, .about-us-right{
     width: 48%;
 
+  }
+  .about-us-left{
+    margin-bottom: 160px;
+  }
+  .about-us-right{
+    margin-top: 90px;
   }
 }
 @media screen and (min-width:1200px) {
