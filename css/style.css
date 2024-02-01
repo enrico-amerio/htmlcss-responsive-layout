@@ -67,7 +67,19 @@ header{
 .col.right{
   margin-bottom:70px;
 }
-
+/* TESTIMONIALS */
+.testimonials-top{
+  height:350px;
+  margin-top: 70px;
+}
+.testimonials.card{
+  height: 500px;
+  background-color: purple;
+  margin-top:30px;
+}
+.testimonials.card:last-child{
+  margin-bottom: 100px;
+}
 @media screen and (min-width:768px){
   .demo{
     flex-direction: row;
