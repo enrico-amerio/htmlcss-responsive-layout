@@ -10,6 +10,9 @@
 li{
   list-style: none;
 }
+.card{
+  text-align: center;
+}
 /* UTILITY */
 .d-flex{
   display: flex;
@@ -30,14 +33,50 @@ header{
   display: none;
 }
 
+/* GET DEMO */
+.demo .card{
+  background-color: aqua;
+  margin-top: 25px;
+  height: 360px;
+}
+.demo .card:first-child{
+  height: 605px;
+  text-align: left;
+}
+.demo .card:last-child{
+  margin-bottom:80px ;
+}
+.demo{
+  flex-direction: column;
+}
 
+@media screen and (min-width:768px){
+  .demo{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .demo .card{
+    width: 32%;
+    height: 436px;
+  }
+  .demo .card:first-child{
+    width: 66%;
+  }
+  .demo .card:nth-child(-n + 2){
+    height: 565px;
 
-@media screen and (min-width:1920px) {
+  }
+}
+@media screen and (min-width:1200px) {
   .nav-icon{
     display: none;
   }
   .nav{
     display: flex;
   }
-  
+  .demo .card, .demo .card:nth-child(-n + 2){
+    
+    height: 345px;
+  }
 }
