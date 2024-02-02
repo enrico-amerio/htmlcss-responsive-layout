@@ -34,6 +34,9 @@ li{
   color: black;
 
 }
+h2{
+  font-size: 1.7rem;
+}
 h3{
   font-size: 1.3rem;
 }
@@ -162,23 +165,32 @@ main{
   border-radius: 50%;
   margin-bottom: 30px;
 }
-
+.strategic img{
+  width:100%;
+}
 
 /* TESTIMONIALS */
 .testimonials-top{
   height:350px;
   margin-top: 70px;
+  text-align: center;
+}
+.testimonials-top h2{
+  color: #9792e4;
+  padding:30px 0 40px 0;
+
+}
+.testimonials-top p{
+  padding: 0 18px 0 18px;
+  margin-bottom: 15px;
+
 }
 .testimonials.card{
   height: 500px;
-  background-color: purple;
   margin-top:30px;
 }
 .testimonials.card:last-child{
   margin-bottom: 100px;
-}
-.strategic img{
-  width:100%;
 }
 /* BENEFITS */
 .benefits-top{
@@ -277,7 +289,7 @@ margin: 65px 0px;
   }
   .strategic{
     flex-direction: row;
-    width: 70%;
+    
   }
   .col{
     width:50%;
