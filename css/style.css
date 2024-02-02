@@ -4,20 +4,33 @@
   box-sizing: border-box;
 }
 .container{
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1400px;
 }
 .container-small{
-  width:70%;
+  width:80%;
   margin: 0 auto;
   max-width: 1153px;
 }
+
 li{
   list-style: none;
+  margin-right: 30px;
+  align-items: center;
+  display: flex;
+ 
 }
-.card{
+.btn{
+  text-decoration: none;
+  border-radius: 10px;
+
   
+}
+.btn.white{
+  background-color: white;
+  padding: 10px 15px;
+
 }
 /* UTILITY */
 .debug{
@@ -41,6 +54,8 @@ header{
   background-color: blue;
   color: white;
   height: 75px;
+  position:fixed;
+  width: 100%;
 }
 .top{
   justify-content: space-between;
@@ -50,6 +65,11 @@ header{
 }
 .nav{
   display: none;
+  
+}
+/* MAIN */
+main{
+  padding-top: 75px;
 }
 
 /* GET DEMO */
