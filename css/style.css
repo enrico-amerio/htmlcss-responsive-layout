@@ -171,9 +171,13 @@ main{
 
 /* TESTIMONIALS */
 .testimonials-top{
-  height:350px;
   margin-top: 70px;
   text-align: center;
+}
+.testimonials.card{
+  margin-top:30px;
+  color: white;
+  border-radius: 50px;
 }
 .testimonials-top h2{
   color: #9792e4;
@@ -185,13 +189,17 @@ main{
   margin-bottom: 15px;
 
 }
-.testimonials.card{
-  height: 500px;
-  margin-top:30px;
-}
 .testimonials.card:last-child{
   margin-bottom: 100px;
 }
+.testimonials img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin:30px 0;
+}
+
 /* BENEFITS */
 .benefits-top{
   height: 85px;
@@ -251,6 +259,22 @@ margin: 65px 0px;
   }
   .col.right img{ 
     padding: 30px 75px 0 75px;
+  }
+  .testimonials.card{
+    display: flex;
+    
+  }
+  .testimonials img{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .testimonials .right{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
   }
 
   .benefits .card, .about-us-left, .about-us-right{
