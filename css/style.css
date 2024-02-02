@@ -37,7 +37,9 @@ li{
 h3{
   font-size: 1.3rem;
 }
-
+p{
+  line-height: 30px;
+}
 /* UTILITY */
 .debug{
   background-color: green;
@@ -50,7 +52,7 @@ h3{
   flex-direction: column;
 }
 .purple{
-  background-color: blueviolet;
+  background-color: #9792e4;
 }
 .black{
   background-color: black;
@@ -78,13 +80,15 @@ header{
 main{
   padding-top: 75px;
 }
+.card{
+  border-radius: 20px;
+  text-align: center;
 
+}
 /* GET DEMO */
 .demo .card{
   background-color: #b5ddff;
   margin-top: 25px;
-  text-align: center;
-  border-radius: 20px;
 }
 .demo .card:first-child{
   height: 605px;
@@ -110,7 +114,6 @@ main{
   margin: 20px 0px;
 }
 .demo p{
-  line-height: 30px;
   padding: 36px;
   
 }
@@ -124,16 +127,43 @@ main{
   margin-left:36px;
 }
 /* STRATEGIC PLANNING */
-.col{
-  height:620px;
-}
 .col.left{
   margin-top:70px;
   margin-bottom: 35px;
+  color: white;
+}
+.col.left img{
+  padding-bottom: 70px;
+
+}
+.col.left h2{
+  margin-bottom: 50px;
+
 }
 .col.right{
   margin-bottom:70px;
+  background-color: white;
+  border-radius: 50px;
 }
+.col.right img{
+  padding-top: 30px;
+}
+.col.right h3{
+  padding: 20px 0;
+}
+.col.right p{
+  padding: 0 20px 30px 20px ;
+  font-style: italic;
+  
+}
+.col.right i{
+  padding: 17px;
+  background-color: #9792e4;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+
 /* TESTIMONIALS */
 .testimonials-top{
   height:350px;
@@ -146,6 +176,9 @@ main{
 }
 .testimonials.card:last-child{
   margin-bottom: 100px;
+}
+.strategic img{
+  width:100%;
 }
 /* BENEFITS */
 .benefits-top{
@@ -204,6 +237,9 @@ margin: 65px 0px;
   .demo .card:first-of-type p{
     width:100%;
   }
+  .col.right img{ 
+    padding: 30px 75px 0 75px;
+  }
 
   .benefits .card, .about-us-left, .about-us-right{
     width: 48%;
@@ -241,7 +277,6 @@ margin: 65px 0px;
   }
   .strategic{
     flex-direction: row;
-    padding-bottom: 70px;
     width: 70%;
   }
   .col{
@@ -249,10 +284,13 @@ margin: 65px 0px;
   }
   .col.left{
     margin: 130px 60px 0 0;
-    height: 720px;
+    
+  }
+  .col.left img{
+    padding-bottom: 110px;
+    
   }
   .col.right{
-    height:550px;
     margin-top:300px
     
   }
