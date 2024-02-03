@@ -189,6 +189,7 @@ main{
   margin-bottom: 15px;
 
 }
+
 .testimonials.card:last-child{
   margin-bottom: 100px;
 }
@@ -199,7 +200,10 @@ main{
   border-radius: 50%;
   margin:30px 0;
 }
-
+.signature{
+  padding:35px 0;
+  font-weight: 700;
+}
 /* BENEFITS */
 .benefits-top{
   height: 85px;
@@ -272,7 +276,7 @@ margin: 65px 0px;
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 65px 45px 0px 0;
     
 
   }
